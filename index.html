@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#ffffff',
+            primery_btn:'#ABEF5F',
+
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  
+}
+
+</style>
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="lg:px-28 px-2 py-6 bg-gray-200">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Home</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Services</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Portfoilo</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Blogs</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>ContactUs</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl font-bold manrope-font">
+                <div class="bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 24 24">
+                <g fill-rule="evenodd"><path d="M15.53 9.17l-6.72 6.71 -.71-.71 6.71-6.72 .7.7Z"></path><path d="M15.03 8.96h-4.45v-1h4.94c.27 0 .5.22.5.5v4.94h-1V8.95Z"></path></g>
+                </svg></div> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex pr-40">
+              <ul class="menu menu-horizontal px-1">
+                <li class="hover:font-bold text-base text-[#494949]"><a>Home</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]" ><a>Services</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Portfoilo</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>Blogs</a></li>
+                  <li class="hover:font-bold text-base text-[#494949]"><a>ContactUs</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex justify-evenly max-w-76" >
+              <div class="p-3 bg-neutral-50 rounded-full"><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="20"
+                height="20"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              
+              </div>
+             <div class="p-3 bg-neutral-50 rounded-full"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-shopping-cart"
+              width="20"
+              height="20"
+            >
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path d="M1 1h4l1.68 11.39a1 1 0 0 0 1 0.89h9.72a1 1 0 0 0 1-.89l1.24-7.39H6" />
+            </svg>
+            </div>
+             
+              <a class="btn h-5 rounded-full bg-primery_btn font-bold font-3xl">Book Conssult <div class="bg-[#000000] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 24 24" fill="white">
+                <g fill-rule="evenodd">
+                  <path d="M15.53 9.17l-6.72 6.71 -.71-.71 6.71-6.72 .7.7Z"></path>
+                  <path d="M15.03 8.96h-4.45v-1h4.94c.27 0 .5.22.5.5v4.94h-1V8.95Z"></path>
+                </g>
+              </svg>
+              </div></a>
+            </div>
+          </div>
+<!-- Bannar Section -->
+      <section class="mt-6 text-center">
+        <img src="assets/banner.png" class="mx-auto">
+        <h1 class="text-3xl lg:text-7xl manrope-font font-bold text-[#212121]">A barn house of this design has a striking appearance</h1>
+        <p class="manrope-font text-sm lg:text-base mt-3 px-16 text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light</p>
+      <a class="btn btn-ghost bg-[rgba(171,239,95,0.5)] mt-4 rounded-full w-full lg:w-52">View All <div class="bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 24 24">
+        <g fill-rule="evenodd"><path d="M15.53 9.17l-6.72 6.71 -.71-.71 6.71-6.72 .7.7Z"></path><path d="M15.03 8.96h-4.45v-1h4.94c.27 0 .5.22.5.5v4.94h-1V8.95Z"></path></g>
+        </svg></div></a>
+      
+      </section>
+    </header>
+    <!-- Main Section   -->
+<main>
+<!-- About Section -->
+</main>
+    <!-- Footer -->
+</body>
+</html>
